@@ -1,65 +1,74 @@
-.container{
-    width: 350px;
-    height: 500px;
-    background: linear-gradient( to bottom right, rgb(136, 233, 192) , rgb(57, 117, 163));
-    margin: auto;
-    border-radius: 20px;
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.input-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
+.container {
+  width: 350px;
+  height: 500px;
+  background: linear-gradient(
+    135deg,
+    rgb(28, 218, 139),
+    rgb(103, 178, 235),
+    rgb(129, 82, 129)
+  );
+  margin: auto;
+  border-radius: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 .input-container input {
-    border-radius: 20px;
-    height: 40px;
-    width: 230px;
-    border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 230px;
+  border: none;
 }
 
-.input-container i{
- height: 40px;
- width: 40px;
- border-radius: 20px;
- background-color: white;
+.input-container i {
+  border-radius: 100%;
+  padding: 10px 12px;
+  background-color: white;
 }
 
-.img-container{
-    width: 200px;
-    margin-left: 65px;
-    margin-top: -30px;
+.img-container {
+  width: 200px;
+  margin-left: 65px;
+  margin-top: -30px;
 }
 
-
-
-.text-container h1{
-    font-size: 50px;
-    margin-right: 20px;
-    text-align: center;
-    margin-top: -20px;
-    color: white;
+.text-container h1 {
+  font-size: 50px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: -20px;
+  color: white;
 }
 
 .text-container p {
-    text-align: center;
-    margin-top: -20px;
-    margin-right: 20px;
-    color: white;
+  text-align: center;
+  margin-top: -20px;
+  margin-right: 20px;
+  color: white;
 }
 
-.div-1{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 80px;
-    color: white;
+.div-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  color: white;
 }
 
-.div-2{
-    display: flex;
-    justify-content: center;
-    color: white;
-    gap: 50px;
-    margin-top: -25px;
+.div-2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 50px;
+  margin-top: -25px;
 }
